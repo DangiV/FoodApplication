@@ -1,0 +1,19 @@
+.FoodSection{
+    padding: 10px;
+}
+.foodParent{
+    padding: 10px;
+}
+.foodChild{
+    max-width: 345px;
+    margin-top: 20px;
+}
+
+.FoodDropDown{
+    display: flex;
+    align-items: center;
+}
+
+.dropdownChild{
+    min-Width: 90px;
+}
