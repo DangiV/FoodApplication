@@ -8,11 +8,10 @@ import { Tab, Tabs } from '@mui/material';
 import '../assests/header.css'
 
 const Header = () => {
-
     return (
         <>
             <Box sx={{ flexGrow: 1 }}>
-                <AppBar position="static">
+                <AppBar position="static" className="headerparent">
                     <Toolbar>
                         <IconButton
                             size="large"
@@ -23,15 +22,16 @@ const Header = () => {
                         >
                             {/* <MenuIcon /> */}
                         </IconButton>
-                        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} >
+                        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}  className='HeaderLogo'>
                             Food
                         </Typography>
                         <Tabs textColor='inherit' indicatorColor='secondary' value={false} >
-                            <Tab label="Home" onClick={() => deleteLocalData()} component={Link} to="/" />
-                            <Tab label="Food" component={Link} to="/food" />
-                            <Tab label="Contact" component={Link} to="/carousel" />
-                            <Tab label="About" component={Link} to="/" />
-                            <Tab label="Login" component={Link} to="/login" />
+                            <Tab label="Home" onClick={() => deleteLocalData()} component={Link} to="/" className='HeaderText' />
+                            <Tab label="Food" component={Link} to="/food" className='HeaderText' />
+                            <Tab label="Contact" component={Link} to="/carousel" className='HeaderText' />
+                            <Tab label="About" component={Link} to="/" className='HeaderText'/>
+                            <Tab label="Login" component={Link} to="/login" className='HeaderText'/>
+                            <Tab label="Register" component={Link} to="/register" className='HeaderText' />
 
                         </Tabs>
                         <Box sx={{ flexGrow: 1 }} />

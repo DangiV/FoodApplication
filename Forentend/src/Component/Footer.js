@@ -8,7 +8,7 @@ const Footer = () => {
       <Box
         className='Footerparent'
       >
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} >
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} className='HeaderLogo'>
         © 2023 Copyright :  Food
         </Typography>
       </Box>

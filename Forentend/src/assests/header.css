@@ -1,3 +1,15 @@
+.headerparent{
+    background-color: var(--navbar-background-color) !important;
+}
+
 .headerTag{
     list-style: none;
+}
+.HeaderLogo{
+    font-family: var(--font_family) !important;
+    font-size: 25px !important;
+}
+.HeaderText{
+    font-size: 20px !important;
+    font-family: var(--font_family) !important;
 }

@@ -5,6 +5,8 @@ import Login from "./Component/Login";
 import Food from "./Component/Food";
 import './assests/common.css';
 import Carousel from "./Component/Carousel";
+import Register from "./Component/Register";
+import './App.css'
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Route path="/login" element={< Login />} />
       <Route path="/food" element={ <Food />} />
       <Route path="/carousel" element={ <Carousel /> } />
+      <Route path="/register" element={<Register />} />
     </Routes>
     </div>
     <Footer />

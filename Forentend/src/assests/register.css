@@ -1,0 +1,27 @@
+.RegisterParent{
+    padding: 60px;
+    font-family: var(--font-family) !important;
+}
+
+.paperStyle{
+    padding: 30px 50px;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 30px !important;
+}
+
+.avatarStyle{
+    background-color: #1bbd7e !important;
+}
+
+.HeadingText{
+    margin: 10px !important;
+    font-family: 'Oswald', sans-serif;
+}
+.SubmitBtn{
+    background-color: var(--buttonBackGroundColor) !important;
+    color: var(--buttonTextColor) !important;
+    font-family: var(--font_family) !important;
+    border-radius: 10px !important;
+    font-size: 15px !important;
+}

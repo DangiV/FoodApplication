@@ -1,0 +1,10 @@
+:root {
+    --navbar-background-color : #2e6281;
+    --font_family: 'Oswald', sans-serif;
+    --navbar-text-color : #fff ; 
+    --bgButton: rgba(90, 16, 11, 0.8);
+    --textColor: white;
+    --buttonTextColor: #fff;
+    --buttonBackGroundColor:#2e6281;
+    --headingColor: rgba(90, 16, 11, 0.8);
+}

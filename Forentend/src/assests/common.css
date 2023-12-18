@@ -3,7 +3,7 @@
 }
 
 .Footerparent{
-    background-color: #1976d2;
+    background-color: var(--navbar-background-color) !important;
     text-align: center !important;
     height: 40px !important;
     color: white !important;

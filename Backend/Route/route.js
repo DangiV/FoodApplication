@@ -2,7 +2,7 @@ import { Router } from "express";
 import express from 'express'
 import { UserRegister, userLogin } from "../Controlle/adminController.js";
 import { CreateFoodItem, GetAllFoodItem } from "../Controlle/foodController.js";
-
+import { AuthToken } from "../auth.js";
 const route = express(Router)
 
 route.get('/', (req, res)=>{
@@ -12,8 +12,7 @@ route.get('/', (req, res)=>{
 route.post('/register', UserRegister)
 route.post('/login', userLogin)
 
-route.post('/CreateFoodItem', CreateFoodItem)
-route.get('/GetAllFoodItem' , GetAllFoodItem)
-
+route.post('/CreateFoodItem',  CreateFoodItem)
+route.get('/GetAllFoodItem',AuthToken , GetAllFoodItem)
 
 export default route;
